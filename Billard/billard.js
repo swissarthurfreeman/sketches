@@ -11,14 +11,14 @@
 //Variables Globales (à encapsuler)
 let balls = [];
 let height = 35; //height est le double du rayon.    
-let coeff = 0.04;
+let coeff = 0; //0.04;
 let WIDTH = 800;
 let HEIGHT = 600;
 let stick = false;
 
 //Setup est appelé qu'une seule fois. 
 function setup() {
-    createCanvas(WIDTH,HEIGHT);
+    createCanvas(WIDTH, HEIGHT);
     background(0, 255, 0);
     frameRate(60);
 
